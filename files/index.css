@@ -1,0 +1,97 @@
+@import url("https://fonts.cdnfonts.com/css/ds-digital");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*relogio digital*/
+.digital-clock {
+  position: relative;
+  top: 8rem;
+  display: flex;
+  gap: 2px;
+  flex-basis: 2.6rem;
+  width: 20rem;
+}
+
+/*relogio digital*/
+#digital-timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-width: 15rem;
+  min-height: 3.2rem;
+  border: 1px solid rgb(39, 39, 39);
+  font-size: 3rem;
+  font-family: "DS-Digital", sans-serif;
+}
+
+/*seletor de região*/
+#choose-region {
+  font-size: 1.2rem;
+  border-radius: 2px;
+  background-color: #ffff;
+  cursor: default;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*corpo do relógio*/
+.clock-details {
+  position: relative;
+  top: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 36rem;
+  min-height: 35rem;
+  border: 1px black solid;
+  border-radius: 100%;
+  rotate: 180deg;
+}
+
+/*ponteiro de segundos*/
+#seconds-pointer {
+  position: absolute;
+  min-height: 16rem;
+  background-color: red;
+  border: 2px red solid;
+}
+/*ponteiro de horas*/
+#hour-pointer {
+  position: absolute;
+  min-height: 9rem;
+  background-color: black;
+  border: 2px black solid;
+}
+
+/*ponteiro de minutos*/
+#minute-pointer {
+  position: absolute;
+  min-height: 13rem;
+  background-color: black;
+  border: 2px black solid;
+}
+
+#center {
+  position: absolute;
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  background-color: black;
+  border: 3px black solid;
+  border-radius: 100%;
+}
+.pointers-div {
+  position: absolute;
+  left: 17.9rem;
+}

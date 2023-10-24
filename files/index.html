@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock Js</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="./clock_icon.png">
+</head>
+<body>
+  <main>
+    <div class="digital-clock">
+      <select name="choose-region" id="choose-region" >
+        <option  selected>select</option>
+        <option  value="America/Sao_Paulo">AM-SP</option>
+        <option  value="America/New_York">AM-NW</option>
+        <option  value="Asia/Hong_Kong">AS-HK</option>
+        <option  value="Africa/Nairobi">AF-NRB</option>
+        <option  value="Europe/London">EU-LO</option>
+      </select>
+      
+      <span id="digital-timer"></span>
+      
+    </div>
+    <div class="clock-details">
+
+      <div id="seconds-div" class="pointers-div">
+        <span class="hours-pointers" id="seconds-pointer"></span>
+      </div>  
+      <div id="hour-div" class="pointers-div">
+        <span class="hours-pointers" id="hour-pointer"></span>
+      </div>
+      <div id="minute-div" class="pointers-div">
+          <span class="hours-pointers" id="minute-pointer"></span>
+      </div>
+      <span id="center"></span>
+    </main>
+    
+    <script src="index.js"></script>
+
+  </body>
+</html>
