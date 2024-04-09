@@ -20,9 +20,9 @@ As regioẽs disponíveis são:
 + AF-NRB → Africa/Nairobi
 
 ### COMO FOI FEITO
-Pode-se dizer que o funcionamento, seja no front e backend, é algo simples e prático. Para tornar a explicação mais descretiva, ela é separada por linguagens usadas
+Pode-se dizer que o funcionamento é algo simples e prático. Para tornar a explicação mais descretiva, ela é separada por linguagens usadas
 
-Cada parte, seja front ou backend, foram feitas inteiramente a mãos
+Cada parte do projeto foi feita inteiramente a mãos
 
 
 > ### <font color="#DC4D25">HTML</font>
@@ -66,6 +66,7 @@ Segundos = 20 * 6 = 120deg
 Minutos = 12 * 6 = 72deg
 
 Horas = 12 * 3 = 360deg
+
 ### POR QUE UM RELÓGIO
 Desde que inicie meus estudos, fiquei muito impressionado pela capacidade de coisas possíveis de se criar, desde lá percebi que o limite era minha imaginação
 
